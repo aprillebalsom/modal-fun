@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+import React, { useState } from 'react'; 
+import Modal from './Modal';
 import './App.css';
 
 function App() {
+
+  //setting the default state to be false therefore hiding the modal
+  const [showModal, setShowModal] = useState(false);
+
+  // function is called on click of button
+  // updates the state to the be the opposite boolean value
+  const toggleModal = () => {
+
+    //update the state of the modal
+    setShowModal(!showModal);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <button className='main-btn' onClick={toggleModal}>Click me</button>
+
+      <Modal 
+        shouldShow={showModal}
+        closeModal={toggleModal}
+      />
     </div>
   );
 }
