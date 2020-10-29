@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/modal-fun/static/css/main.00505260.chunk.css",
+    "main.js": "/modal-fun/static/js/main.761d8483.chunk.js",
+    "main.js.map": "/modal-fun/static/js/main.761d8483.chunk.js.map",
+    "runtime-main.js": "/modal-fun/static/js/runtime-main.018702a8.js",
+    "runtime-main.js.map": "/modal-fun/static/js/runtime-main.018702a8.js.map",
+    "static/js/2.58f84203.chunk.js": "/modal-fun/static/js/2.58f84203.chunk.js",
+    "static/js/2.58f84203.chunk.js.map": "/modal-fun/static/js/2.58f84203.chunk.js.map",
+    "static/js/3.f7770aaf.chunk.js": "/modal-fun/static/js/3.f7770aaf.chunk.js",
+    "static/js/3.f7770aaf.chunk.js.map": "/modal-fun/static/js/3.f7770aaf.chunk.js.map",
+    "index.html": "/modal-fun/index.html",
+    "static/css/main.00505260.chunk.css.map": "/modal-fun/static/css/main.00505260.chunk.css.map",
+    "static/js/2.58f84203.chunk.js.LICENSE.txt": "/modal-fun/static/js/2.58f84203.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.018702a8.js",
+    "static/js/2.58f84203.chunk.js",
+    "static/css/main.00505260.chunk.css",
+    "static/js/main.761d8483.chunk.js"
+  ]
+}
